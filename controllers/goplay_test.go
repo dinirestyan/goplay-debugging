@@ -67,6 +67,6 @@ func TestCreateResponse(t *testing.T) {
 		Email: "dummy@dummy.com",
 		Name:  "dummyName",
 	}
-	jsonRsp, _ := json.Marshal(utils.Response(http.StatusOK, "logged in", resp))
+	jsonRsp, _ := json.Marshal(utils.Response("logged in", resp))
 	log.Println(string(jsonRsp))
 }

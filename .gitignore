@@ -1,5 +1,0 @@
-.env
-.vscode
-*.out
-goplay-debugging
-*.json
